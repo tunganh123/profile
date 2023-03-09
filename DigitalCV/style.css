@@ -1,0 +1,158 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    border: 4px solid rgb(16, 94, 238);
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div p:nth-child(1) {
+    font-weight: 550;
+}
+
+
+h1 {
+    margin: 20px 10px;
+    border-bottom: 1px solid rgb(148, 148, 151);
+}
+
+/* goals */
+
+.container .goals {
+    padding-bottom: 20px;
+    border: 4px solid rgb(16, 94, 238);
+
+}
+
+.container .goal {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom: 1px solid rgb(148, 148, 151);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px
+}
+
+
+.goals a {
+    /* margin-left: 10px; */
+}
+
+.goals p {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+/* team */
+
+.container .team {
+    padding-bottom: 20px;
+    border: 4px solid rgb(16, 94, 238);
+}
+
+.container .te {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.team p {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+/* timeline */
+.container .timeline {
+    padding-bottom: 20px;
+    border: 4px solid rgb(16, 94, 238);
+    grid-column: 3/4;
+    grid-row: 1/3;
+    height: 100%;
+}
+
+.container .pj {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-top: 10px;
+
+}
+
+.timeline div p:nth-child(2) {
+    display: inline-block;
+    border-bottom: 1px solid rgb(148, 148, 151);
+    padding-bottom: 10px;
+}
+
+.timeline p {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.timeline span {
+    color: aliceblue;
+    display: inline-block;
+    padding: 7px;
+    border: 1px solid rgb(137, 74, 196);
+    background-color: rgb(137, 74, 196);
+    border-radius: 50%;
+}
+
+/* scopes */
+.container .scopes {
+    padding-bottom: 20px;
+    border: 4px solid rgb(16, 94, 238);
+    height: 100%;
+
+}
+
+.container .scopes .scope {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.scope h2 {
+    margin-top: 0;
+}
+
+/* primary */
+.container .primary {
+    padding-bottom: 20px;
+    border: 4px solid rgb(16, 94, 238);
+    height: 100%;
+}
+
+.container .primary div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.primary p {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.primary span {
+    color: aliceblue;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid rgb(33, 33, 34);
+    background-color: rgb(33, 33, 34);
+    border-radius: 50%;
+}
